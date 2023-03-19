@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <style>
+        * { 
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+            list-style: none;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Century Gothic';
+        }
+
+        nav { /*sedej header*/
+            background: #808080;
+            height: 75px;
+            width: 100%;
+        }
+
+        label.logo { /* uzlabina hodnoceni*/
+            color: white;
+            font-size: 35px;
+            padding: 0 60px;
+            font-weight: bold;
+            line-height: 70px;
+        }
+
+        nav ul { /* hlavni strana a o webu*/
+            float: right;
+            margin: -5px;
+            margin-right: 10px;
+        }
+
+            nav ul li { /*hlavni strana a o webu pozice*/
+                display: inline-block;
+                line-height: 80px;
+                margin: 0 10px;
+            }
+                nav ul li a { /*hlavni strana a o webu zmena*/
+                    color: white;
+                    font_size: 30px;
+                    padding: 7px 13px;
+                    border-radius: 3px;
+                }
+        a.active, a:hover { /*hlavni strana a o webu zmena, jak*/
+            background: #f28424;
+            transition: .5s;
+        }
+        .checkbtn{
+            font-size: 30px;
+            color: white;
+            float: right;
+            line-height: 80px;
+            margin-right: 40px;
+        }
+
+        </style>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <nav>
+        <label class="logo">Úžlabina - Hodnocení</label>
+        <ul>
+            <li><a class="active">Hlavní strana</a></li>
+            <li><a href="o_webu.html">O webu</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
